@@ -20,14 +20,14 @@ const features = [
 
 const Features = () => {
   return (
-    <section className="py-16 bg-gray-50" id="features">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">
+    <section className="py-section bg-white" id="features">
+      <div className="max-w-content mx-auto px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-secondary">
             Manage your entire community
-            <span className="block">in a single system</span>
+            <span className="block mt-2">in a single system</span>
           </h2>
-          <p className="text-gray-600 mt-4">
+          <p className="text-secondary-light mt-4">
             Who is Nexcent suitable for?
           </p>
         </div>
@@ -36,14 +36,14 @@ const Features = () => {
           {features.map((feature) => (
             <div
               key={feature.title}
-              className="bg-white p-6 rounded-lg text-center hover:shadow-lg transition-shadow"
+              className="bg-gray-light p-8 rounded-lg text-center hover:shadow-lg transition-all duration-300"
             >
               <feature.icon
-                className="w-16 h-16 text-[#4CAF50] mx-auto mb-4"
+                className="w-16 h-16 text-primary mx-auto mb-6"
                 strokeWidth={1.5}
               />
-              <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-              <p className="text-gray-600">{feature.description}</p>
+              <h3 className="text-xl font-semibold mb-4 text-secondary">{feature.title}</h3>
+              <p className="text-secondary-light">{feature.description}</p>
             </div>
           ))}
         </div>

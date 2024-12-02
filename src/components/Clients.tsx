@@ -10,11 +10,11 @@ const clients = [
 
 const Clients = () => {
   return (
-    <section className="py-16 bg-white">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Our Clients</h2>
-          <p className="text-gray-600">
+    <section className="py-section bg-gray-light">
+      <div className="max-w-content mx-auto px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-secondary">Our Clients</h2>
+          <p className="text-secondary-light">
             We have been working with some Fortune 500+ clients
           </p>
         </div>
@@ -22,7 +22,7 @@ const Clients = () => {
           {clients.map((client) => (
             <div
               key={client}
-              className="flex items-center justify-center grayscale hover:grayscale-0 transition-all"
+              className="flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300"
             >
               <img
                 src={`https://picsum.photos/200/100?random=${client}`}

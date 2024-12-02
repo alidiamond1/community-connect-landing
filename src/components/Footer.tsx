@@ -1,71 +1,71 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 py-12">
-      <div className="container mx-auto px-4">
+    <footer className="bg-gray-light py-section">
+      <div className="max-w-content mx-auto px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-lg font-bold mb-4">CommunityHub</h3>
-            <p className="text-gray-600">
+            <h3 className="text-lg font-bold mb-4 text-secondary">CommunityHub</h3>
+            <p className="text-secondary-light">
               Building better communities together.
             </p>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Product</h4>
+            <h4 className="font-semibold mb-4 text-secondary">Product</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
+                <a href="#" className="text-secondary-light hover:text-primary transition-colors">
                   Features
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
+                <a href="#" className="text-secondary-light hover:text-primary transition-colors">
                   Pricing
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
+                <a href="#" className="text-secondary-light hover:text-primary transition-colors">
                   Security
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Company</h4>
+            <h4 className="font-semibold mb-4 text-secondary">Company</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
+                <a href="#" className="text-secondary-light hover:text-primary transition-colors">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
+                <a href="#" className="text-secondary-light hover:text-primary transition-colors">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
+                <a href="#" className="text-secondary-light hover:text-primary transition-colors">
                   Careers
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Legal</h4>
+            <h4 className="font-semibold mb-4 text-secondary">Legal</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
+                <a href="#" className="text-secondary-light hover:text-primary transition-colors">
                   Privacy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-primary">
+                <a href="#" className="text-secondary-light hover:text-primary transition-colors">
                   Terms
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <div className="border-t border-gray-200 mt-8 pt-8 text-center text-gray-600">
+        <div className="border-t border-gray-border mt-12 pt-8 text-center text-secondary-light">
           <p>&copy; 2024 CommunityHub. All rights reserved.</p>
         </div>
       </div>

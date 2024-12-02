@@ -25,15 +25,28 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#9b87f5",
-          dark: "#7E69AB",
-          light: "#D6BCFA",
+          DEFAULT: "#4CAF50",
+          dark: "#45a049",
+          light: "#81c784",
         },
         secondary: {
-          DEFAULT: "#7E69AB",
-          dark: "#6E59A5",
-          light: "#E5DEFF",
+          DEFAULT: "#333333",
+          dark: "#222222",
+          light: "#666666",
         },
+        gray: {
+          light: "#F5F5F5",
+          border: "#E0E0E0",
+        },
+      },
+      gridTemplateColumns: {
+        'auto-fill-cards': 'repeat(auto-fill, minmax(300px, 1fr))',
+      },
+      spacing: {
+        'section': '80px',
+      },
+      maxWidth: {
+        'content': '1200px',
       },
       keyframes: {
         "fade-in": {
