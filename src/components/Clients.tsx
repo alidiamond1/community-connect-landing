@@ -1,20 +1,24 @@
 const clients = [
-  "Company One",
-  "Company Two",
-  "Company Three",
-  "Company Four",
-  "Company Five",
-  "Company Six",
+  "Logo 1",
+  "Logo 2",
+  "Logo 3",
+  "Logo 4",
+  "Logo 5",
+  "Logo 6",
+  "Logo 7",
 ];
 
 const Clients = () => {
   return (
-    <section className="py-12 border-y border-gray-200">
+    <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <p className="text-center text-gray-500 mb-8">
-          Trusted by leading companies worldwide
-        </p>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-bold mb-4">Our Clients</h2>
+          <p className="text-gray-600">
+            We have been working with some Fortune 500+ clients
+          </p>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-8 items-center">
           {clients.map((client) => (
             <div
               key={client}
